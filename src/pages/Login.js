@@ -74,8 +74,11 @@ export const Login = () => {
                     </Form.Group>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                         <div>
-                            <Button style={{ width: '18rem' }} variant="primary" type="submit" onClick={(e) => LoginPage(e)}>
-                                Login
+                            <Button style={{ width: '18rem' }} variant="secondary" type="submit" onClick={(e) => LoginPage(e)}>
+                                askjdhaslkjdhaksj
+                            </Button>
+                            <Button style={{ width: '18rem' }} variant="primary" type="submit" onClick={console.log()}>
+                                asdasdasfgedsdf
                             </Button>
                         </div>
 
